@@ -9,9 +9,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="bg-[url('./bg.png')] bg-no-repeat bg-center bg-cover h-[100vh]">
+<body class="min-[400px]:bg-none  max-[400px]:bg-[url('./bg.png')] bg-no-repeat bg-center bg-cover h-[100vh]">
 
-    <div id="wrapper" class="relative overflow-hidden wrapper max-w-[400px] mx-auto pt-[55px] h-[100vh]">
+    <div id="wrapper" class="relative overflow-hidden wrapper max-w-[400px] mx-auto pt-[55px] max-[400px]:bg-none  min-[400px]:bg-[url('./bg.png')] bg-no-repeat bg-center bg-cover h-[100vh]">
 
         <form id="form" class="mb-[50px] sticky z-10 ml-5 mr-5 flex justify-between items-center" action="">
             <input type="text" id="input" class="w-[70%] px-2 py-1 text-white text-[20px] rounded-[12px]" placeholder="Qavlat nomi">
